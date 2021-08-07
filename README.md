@@ -1,5 +1,12 @@
 
-## CycleGAN에 Unet discriminator 구조를 결합하여 I2I trainsition 성능을 파악한다.
+## CycleGAN+Unet discriminator
+I2I transition 에서 in-the-wild 데이터셋 에 대한 baseline 성능을 평가한다.  
+texture를 변환하는것이 아닌 구조를 바꾸는 task 자체가 어렵기 때문에 cycleGAN 학습은 제대로 수행되지 않는다.  
+논문에서도  cat2dog 셋에 대하여 학습이 전혀 수행되지 않는다고 소개하고 있다.  
+이를 해결하기 위해 U-net discriminator를 적용해보며 cycleGAN에 적용시 차이가 있는지 확인해 본다.  
+  
+* __현재까지의 실험결과 Unet 구조를 결합한 결과, 기존의 horse2zebra 셋에서도 제대로 학습이 수행되지 않는다.  
+구조에 대한 코드리뷰가 필요할 것으로 판단된다.__
 
 #### 현 실험 수행 사항
 <p align="center">
