@@ -2,13 +2,10 @@
 ## CycleGAN에 Unet discriminator 구조를 결합하여 I2I trainsition 성능을 파악한다.
 
 #### 현 실험 수행 사항
-
 <p align="center">
-<img style="margin:50px 0 10px 0" src="https://user-images.githubusercontent.com/40943064/128589107-ecdcd2a2-75cf-4fcf-9e15-4e0bea2abc23.png"   width=600 />
+<img style="margin:50px 0 10px 0" src="https://user-images.githubusercontent.com/40943064/128589211-6f2663ee-fab7-41b9-a852-2bd6a40644db.png"   width=600 />
 </p>
-
 #### 수정 영역
-
 ### Backward of discriminator
 1) AS-IS  
 <p align="center">
