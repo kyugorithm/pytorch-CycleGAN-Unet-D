@@ -10,6 +10,8 @@ Blob이 생성되는 문제를 해결하였다.
 1) Relu로 구현되어있는 loss를 일반 ls loss로 변경하였고  
 2) D와 G의 상대적 Loss가 너무 차이나지 않도록 값을 조절하였다.  
 그러나 생성물을 보면 영역 분리가 명확하지 않아 추가학습 확인이 필요하며 / 추가 Capacity에 대한 결과확인이 필요하다.  
+cycleGAN의 기본 세팅은 BatchNorm으로 구성되어있으나 minibatch가 1인 경우 instance norm으로 수행된다.  
+I2I translation task에서는 instance norm이 효과적이기때문에 batch size를 올렸을때 유의해야한다.
 추가로, 
 * 향후 cat2dog task에 대해서 해당 모델이 어떤 결과를 보일지 확인이 필요하다.
 
