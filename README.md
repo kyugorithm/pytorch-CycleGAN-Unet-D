@@ -14,6 +14,11 @@ cycleGAN의 기본 세팅은 BatchNorm으로 구성되어있으나 minibatch가 
 I2I translation task에서는 instance norm이 효과적이기때문에 batch size를 올렸을때 유의해야한다.
 추가로, 
 * 향후 cat2dog task에 대해서 해당 모델이 어떤 결과를 보일지 확인이 필요하다.
+**update : 2021-08-08**
+Receptive field에 대한 고민을 해 보았다. Discriminator를 설계할 때 cycleGAN은 patchGAN을 이용한다.  
+이는 receptive field를 넓게 가져가기 위함이다. 즉, 픽셀이 아닌 꽤 큰 영역을 둘러 보는 것이  
+이미지 패턴을 이해하고 이를 구분하는 것이 더 의미가 있다는 것이다. pixelGAN (1x1 patchGAN) 에서 수용 영역이 점점 넓어지는  
+case (3layer ~ 5layer)를 실험해본 결과 모두 동일하게 잘 나온다. 그러나 dog2cat dataset에는 전혀 효과가 없었다.
 
 #### 현 실험 수행 사항
 <p align="center">
