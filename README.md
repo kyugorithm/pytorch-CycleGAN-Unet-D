@@ -26,8 +26,8 @@ case (3layer ~ 5layer)를 실험해본 결과 모두 동일하게 잘 나온다.
  
 
 </p>
-#### 수정 영역
-### Backward of discriminator
+#### 수정 영역  
+### Backward of discriminator  
 1) AS-IS  
 <p align="center">
 <img style="margin:50px 0 10px 0" src="https://user-images.githubusercontent.com/40943064/128587308-f0a60e04-929c-4c69-9953-ae15ad8f7e6a.png"   width=300 />
