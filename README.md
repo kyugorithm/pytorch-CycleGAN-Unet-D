@@ -44,3 +44,12 @@ case (3layer ~ 5layer)를 실험해본 결과 모두 동일하게 잘 나온다.
 <p align="center">
 <img style="margin:50px 0 10px 0" src="https://user-images.githubusercontent.com/40943064/128587446-6da890af-9c9f-4106-a16b-45a13b8fb60e.png"   width=600 />
 </p>
+
+### 연구 내용적인 부분 의문점 : 다른곳으로 옮겨야함
+  
+![image](https://user-images.githubusercontent.com/40943064/129212837-852bb2b8-33c8-46b4-a51c-9b2197e5913c.png)
+  
+   
+   
+![image](https://user-images.githubusercontent.com/40943064/129212865-44015bfb-72ff-4b9d-8a70-22142dcf260e.png)
+
